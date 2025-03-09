@@ -1,0 +1,77 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffd1dc;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #ff8fab;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    margin-top: 10px;
+}
+
+button {
+    background: #ff4f7b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff2458;
+}
+
+.notes-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.tag-box {
+    background: #ffb6c1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.note {
+    background: #fff;
+    color: #ff4f7b;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.edit, .delete {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.edit {
+    right: 40px;
+    background: #ff8fab;
+}

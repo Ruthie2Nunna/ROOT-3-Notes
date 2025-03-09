@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root 3 Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🎀 Root 3 Notes 🎀</h2>
+        <input type="text" id="noteTitle" placeholder="Title">
+        <textarea id="noteDescription" placeholder="Description"></textarea>
+        <select id="noteTag">
+            <option value="Personal">🩷 Personal</option>
+            <option value="Work">💻 Work</option>
+            <option value="Ideas">🍒 Ideas</option>
+            <option value="Reminders">🍓 Reminders</option>
+        </select>
+        <button onclick="addNote()">Add Note</button>
+        <div class="notes-section" id="notesContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
